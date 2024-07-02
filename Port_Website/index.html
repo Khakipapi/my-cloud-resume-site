@@ -41,13 +41,13 @@
 
         <!-- Portfolio -->
         <section id="two">
-            <h2>Portfolio</h2>
+            <h2>Portfolio</h
             <div class="row">
                 <article class="col-6 col-12-xsmall work-item">
                     <a href="images/thumbs/Linux_Hogwarts.png" class="image fit thumb" >
                         <img src="images/thumbs/Linux_Hogwarts.png" alt=""/>
                     </a>
-                    <h3>Hogwarts Directory Management</h3>
+                    <h3>Hogwarts themed linux directory management</h3>
                     <p>
                         repository:<a href="https://github.com/Khakipapi/Linux_Hogwarts_directory_management">Linux directory management</a>
                         <div>Technology used: Ubuntu, Linux, Command Line</div>
@@ -73,47 +73,58 @@
         </section>
 
         <!-- Contact -->
-        <section id="three">
-            <h2>Get In Touch</h2>
-            <p>
-                Thank you for visiting my portfolio. If you like what you see and want to discuss potential projects or collaborations, please don’t hesitate to reach out. I’m excited to hear from you and explore how we can work together to create something amazing.
-            </p>
-            <div class="col-8 col-12-small">
-                <form method="post" action="#">
-                    <div class="row gtr-uniform gtr-50">
-                        <div class="col-6 col-12-xsmall">
-                            <input type="text" name="name" id="name" placeholder="Name"/>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Contact Form</title>
+        </head>
+        <body>
+            <section id="three">
+                <h2>Get In Touch</h2>
+                <p>
+                    Thank you for visiting my portfolio. If you like what you see and want to discuss potential projects or collaborations, please don’t hesitate to reach out. I’m excited to hear from you and explore how we can work together to create something amazing.
+                </p>
+                <div class="col-8 col-12-small">
+                    <form method="post" action="send_email.php">
+                        <div class="row gtr-uniform gtr-50">
+                            <div class="col-6 col-12-xsmall">
+                                <input type="text" name="name" id="name" placeholder="Name" required/>
+                            </div>
+                            <div class="col-6 col-12-xsmall">
+                                <input type="email" name="email" id="email" placeholder="Email" required/>
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" id="message" placeholder="Message" rows="4" required></textarea>
+                            </div>
                         </div>
-                        <div class="col-6 col-12-xsmall">
-                            <input type="email" name="email" id="email" placeholder="Email"/>
-                        </div>
-                        <div class="col-12">
-                            <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-                        </div>
-                    </div>
-                </form>
-                <ul class="actions">
-                    <li><input type="submit" value="Send Message"/></li>
-                </ul>
-            </div>
-            <div class="col-4 col-12-small">
-                <ul class="labeled-icons">
-                    <li>
-                        <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-                        New Carrollton, MD 20783<br/>
-                        United States
-                    </li>
-                    <li>
-                        <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-                        (202)-904-3851
-                    </li>
-                    <li>
-                        <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-                        <a href="#">jose.reyesfabian@gmail.com</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Message"/></li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="col-4 col-12-small">
+                    <ul class="labeled-icons">
+                        <li>
+                            <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+                            New Carrollton, MD 20783<br/>
+                            United States
+                        </li>
+                        <li>
+                            <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+                            (202)-904-3851
+                        </li>
+                        <li>
+                            <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+                            <a href="#">jose.reyesfabian@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </body>
+        </html>
+        
     </div>
 
     <!-- Footer -->
