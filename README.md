@@ -1,41 +1,47 @@
 # 🌐 Cloud Resume Project — José Reyes
 
-**Live site:** [https://josereyes.cloud](https://josereyes.cloud)
+Live site: josereyes.cloud
 
-Welcome! This repository contains my **cloud-hosted résumé website**, built as part of the **Cloud Resume Challenge**. It demonstrates my ability to design secure cloud architectures, automate deployments, and integrate frontend + serverless backend services.
 
----
+## ⚡ Quick Impact Summary
 
-## 👀 What Recruiters Will See
+- ✅ Built a **production-ready AWS system** with global distribution  
+- ✅ Automated deployments using **Terraform + GitHub Actions**  
+- ✅ Designed a **serverless backend** with API Gateway, Lambda, and DynamoDB  
+- ✅ Applied **security best practices** (private S3, OAC, least-privilege IAM)  
+- ✅ Delivered a **scalable, professional résumé site** hosted in the cloud  
 
-### Homepage
-![Homepage](./screenshots/homepage.png)  
-*A clean, responsive landing page linking to my résumé and projects.*
+## 🎯 Project Purpose
 
-### Résumé Section
-![Résumé](./screenshots/resume.png)  
-*My résumé, hosted on highly available AWS infrastructure.*
+This project is more than just a résumé page — it’s a **real-world cloud application**.  
+It was built as part of the **Cloud Resume Challenge**, a widely recognized test of cloud and DevOps skills.  
 
-### Live Visitor Counter
-![Visitor Counter](./screenshots/counter.png)  
-*A DynamoDB-backed counter exposed via API Gateway + Lambda, displayed on the site.*
+Through this project, I demonstrated:  
+- **Cloud architecture design** on AWS  
+- **Infrastructure as Code (IaC)** with Terraform  
+- **Full-stack development** combining frontend + backend + APIs  
+- **Automation & CI/CD pipelines** with GitHub Actions  
 
-> 📌 Place your screenshots in a `screenshots/` folder at the repo root to make these images load.
+## 💡 Project Showcase
 
----
+Here’s what this site demonstrates in action:
 
-## 🧭 Project Overview (Why It Matters)
+- **Professional Presentation**  
+  Visitors land on a modern, responsive homepage that showcases my résumé and portfolio.  
 
-This project is a production-style, full-stack cloud app that shows I can:
+- **Reliability & Availability**  
+  The résumé is hosted on AWS S3 and delivered through CloudFront, ensuring fast, secure access worldwide.  
 
-- **Architect secure, scalable systems** on AWS  
-- **Automate deployments** with CI/CD (GitHub Actions → S3/CloudFront)  
-- **Write and integrate code** across the stack (HTML/CSS/JS + Python Lambda)  
-- **Work like a cloud/DevOps engineer**: IaC, least-privilege IAM, OAC, cache strategy  
+- **Dynamic Features**  
+  A live visitor counter proves backend integration with DynamoDB, API Gateway, and Lambda.  
 
-Roles it aligns with: **Cloud Engineer, DevOps Engineer, Platform Engineer, SRE**.
+- **Automation Behind the Scenes**  
+  Each code push triggers GitHub Actions to deploy updates automatically to AWS, showing CI/CD expertise.  
 
----
+- **Scalability & Security**  
+  Architecture is designed with private storage, least-privilege IAM, and serverless scaling.  
+
+(Screenshots available in `screenshots/` folder: homepage.png, resume.png, counter.png)
 
 ## 🏗️ Architecture
 
